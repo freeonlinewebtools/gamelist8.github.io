@@ -223,29 +223,29 @@
       '#jqrg-loader-content{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:0 24px;z-index:2}',
       '#jqrg-loader-pct{color:rgba(255,255,255,.92);font-size:22px;font-weight:500;font-variant-numeric:tabular-nums;letter-spacing:.02em;text-shadow:0 0 10px rgba(0,0,0,.6);line-height:1}',
       '#jqrg-loader-bar{width:320px;max-width:60vw;height:6px;background:rgba(255,255,255,.12);border-radius:3px;overflow:hidden;position:relative}',
-      '#jqrg-loader-bar-fill{height:100%;width:0%;background:linear-gradient(90deg,#8841d6,#b07aff);border-radius:3px;transition:width .25s ease-out;box-shadow:0 0 12px rgba(176,122,255,.55)}',
+      '#jqrg-loader-bar-fill{height:100%;width:0%;background:linear-gradient(90deg,#f07220,#ffa45c);border-radius:3px;transition:width .25s ease-out;box-shadow:0 0 12px rgba(255,164,92,.55)}',
       '#jqrg-loader-text{color:rgba(255,255,255,.72);font-size:13px;font-variant-numeric:tabular-nums;letter-spacing:.02em;text-shadow:0 0 8px rgba(0,0,0,.5)}',
       '#jqrg-loader-brand{display:block;max-width:84vw;max-height:30vh;width:auto;height:auto;object-fit:contain;margin:0 0 6px;filter:drop-shadow(0 2px 14px rgba(0,0,0,.5))}',
       '#jqrg-loader.jqrg-splash #jqrg-loader-content{opacity:0;transition:opacity .2s linear;pointer-events:none}',
       '#jqrg-loader-sound-gate{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:3;appearance:none;-webkit-appearance:none;border:0;background:transparent;color:#fff;font:inherit;padding:0;cursor:pointer;outline:none;user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent;max-width:min(90vw,460px);text-align:left;isolation:isolate}',
-      '#jqrg-loader-sound-gate::before{content:"";position:absolute;inset:-34px -42px;border-radius:40px;background:radial-gradient(circle at 50% 50%,rgba(176,122,255,.34),rgba(73,200,255,.14) 36%,rgba(136,65,214,.08) 58%,rgba(0,0,0,0) 75%);filter:blur(13px);opacity:.9;z-index:-2;animation:jqrg-sound-aura 3.8s ease-in-out infinite}',
-      '#jqrg-loader-sound-gate::after{content:"";position:absolute;inset:-1px;border-radius:30px;background:linear-gradient(135deg,rgba(255,255,255,.48),rgba(176,122,255,.2) 31%,rgba(73,200,255,.26) 64%,rgba(255,255,255,.36));opacity:.9;z-index:-1;transition:opacity .18s ease,filter .18s ease,transform .18s ease}',
+      '#jqrg-loader-sound-gate::before{content:"";position:absolute;inset:-34px -42px;border-radius:40px;background:radial-gradient(circle at 50% 50%,rgba(255,164,92,.34),rgba(255,194,77,.14) 36%,rgba(240,114,32,.08) 58%,rgba(0,0,0,0) 75%);filter:blur(13px);opacity:.9;z-index:-2;animation:jqrg-sound-aura 3.8s ease-in-out infinite}',
+      '#jqrg-loader-sound-gate::after{content:"";position:absolute;inset:-1px;border-radius:30px;background:linear-gradient(135deg,rgba(255,255,255,.48),rgba(255,164,92,.2) 31%,rgba(255,194,77,.26) 64%,rgba(255,255,255,.36));opacity:.9;z-index:-1;transition:opacity .18s ease,filter .18s ease,transform .18s ease}',
       '#jqrg-loader-sound-gate:hover{transform:translate(-50%,calc(-50% - 3px))}',
       '#jqrg-loader-sound-gate:hover::before{opacity:1;filter:blur(15px)}',
       '#jqrg-loader-sound-gate:hover::after{opacity:1;filter:brightness(1.12);transform:scale(1.01)}',
       '#jqrg-loader-sound-gate:active{transform:translate(-50%,calc(-50% + 1px)) scale(.99)}',
-      '#jqrg-loader-sound-gate:focus-visible::after{box-shadow:0 0 0 3px rgba(255,255,255,.78),0 0 0 8px rgba(176,122,255,.34)}',
-      '#jqrg-loader-sound-gate .jqrg-sound-gate-card{position:relative;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:16px;min-width:min(86vw,390px);padding:18px 20px;border-radius:29px;background:linear-gradient(180deg,rgba(18,15,34,.88),rgba(8,7,18,.92));box-shadow:0 30px 90px rgba(0,0,0,.62),0 16px 44px rgba(136,65,214,.24),inset 0 1px 0 rgba(255,255,255,.18),inset 0 -1px 0 rgba(255,255,255,.08);overflow:hidden;backdrop-filter:blur(18px) saturate(135%);-webkit-backdrop-filter:blur(18px) saturate(135%)}',
+      '#jqrg-loader-sound-gate:focus-visible::after{box-shadow:0 0 0 3px rgba(255,255,255,.78),0 0 0 8px rgba(255,164,92,.34)}',
+      '#jqrg-loader-sound-gate .jqrg-sound-gate-card{position:relative;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:16px;min-width:min(86vw,390px);padding:18px 20px;border-radius:29px;background:linear-gradient(180deg,rgba(18,15,34,.88),rgba(8,7,18,.92));box-shadow:0 30px 90px rgba(0,0,0,.62),0 16px 44px rgba(240,114,32,.24),inset 0 1px 0 rgba(255,255,255,.18),inset 0 -1px 0 rgba(255,255,255,.08);overflow:hidden;backdrop-filter:blur(18px) saturate(135%);-webkit-backdrop-filter:blur(18px) saturate(135%)}',
       '#jqrg-loader-sound-gate .jqrg-sound-gate-card::before{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 0%,rgba(255,255,255,.12) 28%,transparent 47%);transform:translateX(-120%);animation:jqrg-sound-sheen 4.2s ease-in-out infinite;pointer-events:none}',
       '#jqrg-loader-sound-gate .jqrg-sound-gate-card::after{content:"";position:absolute;inset:1px;border-radius:28px;border:1px solid rgba(255,255,255,.09);pointer-events:none}',
-      '#jqrg-loader-sound-gate .jqrg-sound-gate-icon{position:relative;display:grid;grid-template-columns:repeat(3,4px);align-items:center;justify-content:center;gap:4px;width:50px;height:50px;border-radius:18px;background:linear-gradient(135deg,#9b6cff,#49c8ff);box-shadow:0 12px 30px rgba(91,132,255,.38),inset 0 1px 0 rgba(255,255,255,.42)}',
+      '#jqrg-loader-sound-gate .jqrg-sound-gate-icon{position:relative;display:grid;grid-template-columns:repeat(3,4px);align-items:center;justify-content:center;gap:4px;width:50px;height:50px;border-radius:18px;background:linear-gradient(135deg,#ff8a3d,#ffc24d);box-shadow:0 12px 30px rgba(240,114,32,.38),inset 0 1px 0 rgba(255,255,255,.42)}',
       '#jqrg-loader-sound-gate .jqrg-sound-gate-icon span{display:block;width:4px;border-radius:99px;background:#fff;box-shadow:0 0 10px rgba(255,255,255,.5);animation:jqrg-sound-bars 1.25s ease-in-out infinite}',
       '#jqrg-loader-sound-gate .jqrg-sound-gate-icon span:nth-child(1){height:15px;animation-delay:-.22s}',
       '#jqrg-loader-sound-gate .jqrg-sound-gate-icon span:nth-child(2){height:24px;animation-delay:-.08s}',
       '#jqrg-loader-sound-gate .jqrg-sound-gate-icon span:nth-child(3){height:18px;animation-delay:-.34s}',
       '#jqrg-loader-sound-gate .jqrg-sound-gate-copy{position:relative;display:flex;flex-direction:column;gap:5px;min-width:0}',
       '#jqrg-loader-sound-gate .jqrg-sound-gate-title{font-size:18px;font-weight:850;line-height:1.08;letter-spacing:.005em;color:#fff;text-shadow:0 1px 12px rgba(0,0,0,.45);white-space:nowrap}',
-      '#jqrg-loader-sound-gate .jqrg-sound-gate-subtitle{font-size:12px;font-weight:700;line-height:1.2;letter-spacing:.1em;text-transform:uppercase;color:rgba(226,221,255,.72);white-space:nowrap}',
+      '#jqrg-loader-sound-gate .jqrg-sound-gate-subtitle{font-size:12px;font-weight:700;line-height:1.2;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,233,214,.80);white-space:nowrap}',
       '#jqrg-loader-sound-gate .jqrg-sound-gate-arrow{position:relative;display:grid;place-items:center;width:28px;height:28px;border-radius:999px;background:rgba(255,255,255,.08);color:rgba(255,255,255,.82);font-size:18px;font-weight:800;line-height:1;transition:transform .18s ease,background .18s ease,color .18s ease}',
       '#jqrg-loader-sound-gate:hover .jqrg-sound-gate-arrow{transform:translateX(2px);background:rgba(255,255,255,.15);color:#fff}',
       '@keyframes jqrg-sound-aura{0%,100%{opacity:.64;transform:scale(.96)}50%{opacity:1;transform:scale(1.045)}}',
@@ -852,7 +852,7 @@
 
   // ---------- Sound gate ----------------------------------------------------
   // Loading is done. Browsers gate Web Audio behind a real user gesture, so
-  // hold the splash until the user clicks "Click me to enable sounds". The
+  // hold the splash until the user clicks "Click to Play". The
   // click also fires `jqrg-user-gesture` on window so games (TurboWarp etc.)
   // can bind their engine.start() to it instead of their native flag.
   function startSoundGate() {
@@ -863,8 +863,8 @@
     var btn = document.createElement('button');
     btn.id = 'jqrg-loader-sound-gate';
     btn.type = 'button';
-    btn.innerHTML = '<span class="jqrg-sound-gate-card"><span class="jqrg-sound-gate-icon" aria-hidden="true"><span></span><span></span><span></span></span><span class="jqrg-sound-gate-copy"><span class="jqrg-sound-gate-title">Click me to enable sounds</span><span class="jqrg-sound-gate-subtitle">Unlock audio, then start</span></span><span class="jqrg-sound-gate-arrow" aria-hidden="true">&gt;</span></span>';
-    btn.setAttribute('aria-label', 'Click me to enable sounds');
+    btn.innerHTML = '<span class="jqrg-sound-gate-card"><span class="jqrg-sound-gate-icon" aria-hidden="true"><span></span><span></span><span></span></span><span class="jqrg-sound-gate-copy"><span class="jqrg-sound-gate-title">Click to Play</span><span class="jqrg-sound-gate-subtitle">Turn on sound & start</span></span><span class="jqrg-sound-gate-arrow" aria-hidden="true">&gt;</span></span>';
+    btn.setAttribute('aria-label', 'Click to Play');
     overlay.appendChild(btn);
     function dismiss(e) {
       if (e && e.cancelable && typeof e.preventDefault === 'function') {
